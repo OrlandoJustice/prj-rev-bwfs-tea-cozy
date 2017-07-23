@@ -1,0 +1,151 @@
+html {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  flex-flow: row wrap;
+}
+
+nav span a {
+  color: seashell;
+  font-size: 22px;
+  text-decoration: underline;
+  width: 75px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-title {
+  opacity: 0.9;
+  color: seashell;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.main-body {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  width: 100%;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 98%;
+  height: 69px;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 5;
+}
+
+.top-image {
+  background-image: url("../../resources/images/bckgnd-mission.jpg");  
+  background-repeat: no-repeat;  
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-image {
+  background-image: url("../../resources/images/bckgnd-location.jpg");  
+  background-repeat: no-repeat;  
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sub-header {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+.center-text {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.center-options {
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.center-images-container {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.center-images {
+  width: 300px;
+  height: 200px;
+}
+
+.bottom-text-container {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-copyright {
+  padding-left: 20px;
+  width: 100%;
+  text-align: left;
+}
